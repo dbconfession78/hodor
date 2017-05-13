@@ -17,4 +17,4 @@ for i in range(1):
     print(i+1)
 end_votes = fetch_vote_count(userid, URL)
 votes_cast = int(end_votes) - int(start_votes)
-print("Vortes cast: {:d}".format(votes_cast))
+print("Votes cast: {:d}".format(votes_cast))
