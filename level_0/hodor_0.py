@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import requests
 from  functions import fetch_vote_count
-import re
 
 URL = "http://54.221.6.249/level0.php"
 userid = input("Enter userid to vote for: ")
